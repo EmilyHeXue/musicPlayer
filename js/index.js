@@ -53,7 +53,7 @@ $('.musicbox .play').onclick = function(){
 }
 
 $('.musicbox .forward').onclick = function(){
-	currentIndex = (++currentIndex)%musicLis.length
+	currentIndex = (++currentIndex)%musicList.length
 	loadMusic(musicList[currentIndex])
 }
 
